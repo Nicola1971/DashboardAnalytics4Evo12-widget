@@ -131,8 +131,8 @@ jQuery(document).ready(function () {
 });
 </script>
 <style>
-div#active-users {color:#058DC7;display:block;margin:0;text-align:center;vertical-align:middle;}
-div#active-users .ActiveUsers-value {color:#ff9900; display:block; margin-top:3px; font-size: 3rem !important; font-weight:normal!important;}
+div#active-users {height:84px;color:#058DC7;display:block;margin-top:8px;text-align:center;vertical-align:middle;padding:0;}
+div#active-users .ActiveUsers-value {color:#ff9900; display:block; margin-top:-30px;margin-bottom:-30px;padding:0; font-size: 3.6rem !important; font-weight:normal!important;}
 </style>
 <div id=\"auth-button\"></div>";
 $e->output($cssOutput);
@@ -156,7 +156,7 @@ $WidgetOutput = "
                                 </div>     
                             </div>
                       </div>
-                      <div class=\"panel-body widget-stage sectionBody\">
+                      <div class=\"panel-body widget-stage sectionBody\" style=\"padding-top:0;overflow-y:hidden;\">
                       <div id=\"active-users\"></div><div style=\"width:100%;\" id=\"widgetSessions\"></div>
                       </div>
 					  </div>
