@@ -5,17 +5,17 @@
  *
  * @author      Nicola Lambathakis http://www.tattoocms.it/
  * @category    plugin
- * @version     RC1.1
+ * @version     1 RC1.2
  * @license	    http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @internal    @events OnManagerWelcomeHome,OnManagerWelcomePrerender
  * @internal    @installset base
  * @internal    @modx_category Analytics
  * @internal    @disabled 1
- * @internal    @properties &wdgVisibility=Show widget for:;menu;All,AdminOnly,AdminExcluded,ThisRoleOnly,ThisUserOnly;All &ThisRole=Run only for this role:;string;;;(role id) &ThisUser=Run only for this user:;string;;;(username) &wdgTitle= Analytics widget Title:;string;Analytics  &wdgicon= widget icon:;string;fa-bar-chart &datarow= widget row position:;menu;1,2,3,4,5,6,7,8,9,10;1 &datacol= widget col position:;menu;1,2,3,4;1 &datasizex= widget x size:;menu;1,2,3,4;4 &datasizey= widget y size:;menu;1,2,3,4,5,6,7,8,9,10;6 &IDclient=ID client:;string;;;application ID client &ids=ids:;;;Table ID (ids) &sess_metrics=metrics:;menu;sessions,users;sessions &sess_time=time period:;menu;30daysAgo,14daysAgo,7daysAgo;30daysAgo &rightNow=Realtime Users Title:;string;Right Now
+ * @internal    @properties &wdgVisibility=Show widget for:;menu;All,AdminOnly,AdminExcluded,ThisRoleOnly,ThisUserOnly;All &ThisRole=Run only for this role:;string;;;(role id) &ThisUser=Run only for this user:;string;;;(username) &wdgTitle= Analytics widget Title:;string;Analytics  &wdgicon= widget icon:;string;fa-bar-chart &datarow= widget row position:;menu;1,2,3,4,5,6,7,8,9,10;1 &datacol= widget col position:;menu;1,2,3,4;1 &datasizex= widget x size:;menu;1,2,3,4;4 &datasizey= widget y size:;menu;1,2,3,4,5,6,7,8,9,10;6 &IDclient=ID client:;string;;;application ID client &ids=ids:;;;Table ID (ids) &sess_metrics=metrics:;menu;sessions,users;sessions &sess_time=time period:;menu;7daysAgo,14daysAgo,30daysAgo,60daysAgo;30daysAgo &rightNow=Realtime Users Title:;string;Right Now
  * @documentation Requirements: This plugin requires MODx Evolution 1.2 to 1.2.2
  * @reportissues https://github.com/Nicola1971/DashboardAnalytics4Evo12-widget/issues
  * @link        
- * @lastupdate  08/01/2017
+ * @lastupdate  10/01/2017
 */
 // get manager role
 $internalKey = $modx->getLoginUserID();
